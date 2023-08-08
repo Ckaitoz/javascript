@@ -1,3 +1,4 @@
+// Condição composta
 // if(condição){
 //     true
 // } else {

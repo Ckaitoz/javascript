@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Sistema de Multas</h1>
-    <input type="number" name="vel" id="vel"> km/h 
+    <input type="number" name="vel" id="vel"> km/h
     <input type="button" value="Verificar" onclick="calc()">
     <div id="res">
 
@@ -19,10 +21,11 @@
             var res = document.querySelector('div#res')
             var vel = Number(tvel.value)
             res.innerHTML = `<p>Sua velocidade atual e de ${vel} km/h </p>`
-            if(vel > 60){
+            if (vel > 60) {
                 res.innerHTML += `<p>Voce esta MULTADO INBECIL`
             }
         }
-    </script> 
+    </script>
 </body>
+
 </html>
