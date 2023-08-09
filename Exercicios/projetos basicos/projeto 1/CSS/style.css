@@ -5,17 +5,32 @@
 }
 body{
     background-color: rgb(43, 226, 174);
-    background-image: -moz-linear-gradient();
-    
+    background-image: -moz-linear-gradient(#FFAF08, #DE8C07, #DE6B07);
 }
 header{
     text-align: center;
+    padding: 15px;
 }
 article{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
     background-color: white;
     border-radius: 10px;
     padding: 15px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 800px;
+}
+div{
+    padding: 10px;
+    font-size: 1.5em;
+}
+img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
 }
 footer{
     text-align: center;
