@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="SRC/CSS/style.css">
+</head>
+
+<body >
+    <header>
+        <h1>
+            Verificador de idade
+        </h1>
+    </header>
+    <section  >
+        <div>
+            
+                <p>
+                    Ano de Nascimento:
+                    <input type="number" name="ano" id="iano" min="0">
+                </p>
+                <p>
+                    Sexo:
+                    <input type="radio" name="sexo" id="masc" >Masculino
+                    <input type="radio" name="sexo" id="Fem" >Feminino
+                </p>
+                <p><input type="button" value="Verificar"
+                    onclick="verificar()"></p>
+            
+            <p>Preencha os dados a cima para ver o resultado!</p>
+        </div>
+
+        <div id="res">
+            <img src="SRC/image/adolecenteF.webp" alt="">
+        </div>
+    </section>
+    <footer>
+        <a href="https://github.com/Ckaitoz">@Ckaito</a>
+    </footer>
+    <script src="SRC/JS/form.js"></script>
+</body>
+
+</html>
