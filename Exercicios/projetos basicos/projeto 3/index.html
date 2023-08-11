@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="SRC/CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Vamos contar
+        </h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Inicio:
+                <input type="number" name="inicio" id="iniciar" min="0" required>
+            </p>
+            <p>
+                Fim:
+                <input type="number" name="Fim" id="final">
+            </p>
+
+            <p>
+                Passo
+                <input type="number" name="passo" id="pass">
+            </p>
+
+            <p><input type="button" value="Contar" onclick="contar()"></p>
+
+            <p>Preencha os dados a cima para ver o resultado!</p>
+        </div>
+
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>
+        <a href="https://github.com/Ckaitoz">@Ckaito</a>
+    </footer>
+    <script src="SRC/JS/contar.js"></script>
+</body>
+
+</html>
