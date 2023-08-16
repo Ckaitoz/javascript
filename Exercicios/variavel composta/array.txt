@@ -1,0 +1,26 @@
+array(variavel composta) = e uma variavel composta por varios elementos que e feito pelo conteudo(valor) e indice(key) 
+
+let num = [ 5 , 8 , 4 ]
+Elementos   0   1   2 (os numeros  são o indice)
+
+adicionar mais um elemento 
+você escolhe o indice
+num[3] = 6
+
+o JS faz sozinho
+num.push(7)
+
+para saber o comprimento do vetor(mostrar quantos itens tem no indice)
+
+num.length
+
+para deixar os elementos em ordem crescente
+
+num.sort()
+
+para buscar vetores
+
+num.indexOf()
+//lembrar do "O" MAIUSCULO
+
+se retornar -1 significa que não foi encontrado o conteudo(valor)
