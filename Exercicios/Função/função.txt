@@ -1,0 +1,31 @@
+Toda função tem:
+
+Chamada 
+
+Parametro(s)
+
+Ação
+
+Retorno
+
+Fuçoes são ações executadas assim que são chamadas ou em decorrencia de algum evento
+
+uma função pode ter uma ação e receber um resultado
+
+function ação(parametro){
+
+    return  res
+}
+
+ação(5)
+
+function parimp(n){  //parametro
+
+//ação
+    if (n % 2 == 0){
+        return 'par'
+    }else{
+        return 'impar' //retorno
+    }
+}
+let res = parimp(11) //chamada
